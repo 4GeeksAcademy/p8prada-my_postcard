@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#postcard {
+    padding: 10px;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+}
+
+#upperside {
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+
+}
+
+
+
