@@ -14,7 +14,7 @@ body {
     padding: 10px;
     background-color: white;
     width: 550px;
-    height: 350px;
+    height: 330px;
 }
 
 #upperside {
@@ -25,8 +25,66 @@ body {
 }
 
 #logo {
-
+    padding: 10px;
+    height: 55px;
+    width: 50px;
 }
 
+h1{
+    margin-left: 10px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p{
+    padding: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+}
+
+#data{
+    padding-right: 2px;
+    font-size: 24px;
+}
+
+#mainbody{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    font-family: 'Comfortaa', sans-serif;
+    border-color: black;
+    font-size: 18px;
+  }
+
+#lowerside{
+    display: flex;
+    justify-content:center;
+}
+
+.bt {
+	display: flex;
+	border: 1px solid;
+	border-color: lightgray #000 #000 #aaa;
+    height: 2em;
+	width: 11em;
+	background: lightgray;
+	text-decoration: none;
+	align-items: center;
+    justify-content: center;
+	color: black;
+	font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+a.bt:active {
+	border-color: #000 #aaa #aaa #000;
+}
 
 
